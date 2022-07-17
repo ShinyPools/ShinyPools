@@ -1,0 +1,32 @@
+<footer class="extrablur" th:fragment="footer">
+	<div class="footer-blurry py-4">
+		<div class="blurry container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3 item">
+					<h3>Services</h3>
+					<ul>
+						<li th:unless="${activePage == 'Closing'}"><a th:href="@{/closing}">Pool Closing</a></li>
+						<li th:if="${activePage == 'Closing'}"><a th:href="@{/services}">Hire Us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-3 item">
+					<h3>About</h3>
+					<ul>
+						<li th:unless="${activePage == 'Index'}"><a href="/">Company</a></li>
+						<li th:unless="${activePage == 'Team'}"><a th:href="@{/team}">Team</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 item text">
+					<h3>Shiny Pools</h3>
+					<p>Shiny Pools has made it our mission to work with and advice you on the best methods to understand your pool cleaning needs.</p>
+				</div>
+				<div class="col item social">
+					<a href="https://www.facebook.com/shinypools4u" target="_blank"><i class="icon ion-social-facebook"></i></a>
+					<p class="copyright" style="color: gray">Shiny Pools &copy; since 2022</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</footer>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<!-- Head -->
+	<div th:replace="~{fragments/head :: head}"></div>
+	<body>
+		<!-- Header -->
+		<header class="fixed-top">
+			<!-- Nav -->
+			<div th:replace="~{fragments/nav :: nav}"></div>
+		</header>
+		<!-- Main -->
+		<main class="blurry container">
+			<div class="outerpanel py-4">
+				<div class="innerpanel">
+					<div class="pt-4"></div>
+					<h1 class="rounded-top logo mx-4">SHINY POOLS</h1>
+					<p class="content px-4">Are you or a loved one using your pool to achieve a weight loss goal? Is your pool the setting for your physical therapy journey? Could your pool also be the perfect setting for your kids to introduce you to their friends? Regardless of what you use your pool for, shouldn't you feel confident and safe with its maintenance? Let Shiny Pools help you create all the stories and memories that your pool has to offer.</p>
+					<a href="/image/aboveGround1.png" target="_blank">
+						<img class="px-4" src="/image/aboveGround1.png">
+					</a>
+					<br/>
+					<a class="ragelink" th:href="@{/services}">Hire a pool professional today!</a>
+					<p class="content px-4">With over 10 years experience there is not much we have not seen in a residential backyard. Pools of varying shapes and sizes. Filter systems of varying efficiency. Covers that can hold an elephant, or just as easily cause a homeowner some frustration year after year. Whatever may be the case, Shiny Pools has made it our mission to work with and advise you on the best methods to understand your pool cleaning needs. The owner and operator of this company, Daniel J Kern, grew up with a pool. He knows how much love and joy a pool can bring to a family and all of their friends and loved ones. Shiny Pools wants to be a part of your community by providing a service that leaves you saying, "Wow."</p>
+					<a href="/image/aboveGround2.png" target="_blank">
+						<img class="rounded-bottom px-4" src="/image/aboveGround2.png">
+					</a>
+					<div class="pt-4"></div>
+				</div>
+			</div>
+		</main>
+		<!-- Footer -->
+		<div th:replace="~{fragments/footer :: footer}"></div>
+		<!-- Script Imports -->
+		<div th:replace="~{fragments/script_imports :: script_imports}"></div>
+	</body>
+</html>

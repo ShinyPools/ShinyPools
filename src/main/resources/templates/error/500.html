@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<!-- Head -->
+	<div th:replace="~{fragments/head :: head}"></div>
+	<body>
+		<!-- Header -->
+		<header class="fixed-top">
+			<!-- Nav -->
+			<div th:replace="~{fragments/nav :: nav}"></div>
+		</header>
+		<!-- Main -->
+		<main class="blurry container">
+			<div class="outerpanel py-4">
+				<div class="innerpanel">
+					<h1 class="logo">500 Internal Server Error</h1>
+					<p class="px-4">A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.</p>
+				</div>
+			</div>
+		</main>
+		<!-- Footer -->
+		<div th:replace="~{fragments/footer :: footer}"></div>
+		<!-- Script Imports -->
+		<div th:replace="~{fragments/script_imports :: script_imports}"></div>
+	</body>
+</html>

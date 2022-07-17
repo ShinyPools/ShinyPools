@@ -1,0 +1,112 @@
+.footer-blurry 
+{
+    background: inherit;
+    backdrop-filter: blur(0.5rem);
+	box-shadow: 0 0 0.25rem 0;
+}
+
+.footer-blurry .extrablur
+{
+	background: inherit;
+    backdrop-filter: blur(0.5rem);
+}
+
+.footer-blurry h3 
+{
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-blurry ul 
+{
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+}
+
+.footer-blurry ul a 
+{
+    color: inherit;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.footer-blurry ul a:hover 
+{
+    opacity: 0.8;
+}
+
+@media (max-width:767px) 
+{
+    .footer-blurry .item:not(.social) 
+    {
+        text-align: center;
+        padding-bottom: 1.25rem;
+    }
+}
+
+.footer-blurry .item.text 
+{
+    margin-bottom: 2.25rem;
+}
+
+@media (max-width:767px) 
+{
+    .footer-blurry .item.text 
+    {
+        margin-bottom: 0;
+    }
+}
+
+.footer-blurry .item.text p 
+{
+    opacity: 1;
+    margin-bottom: 0;
+}
+
+.footer-blurry .item.social 
+{
+    text-align: center;
+}
+
+@media (max-width:991px) 
+{
+    .footer-blurry .item.social 
+    {
+        text-align: center;
+        margin-top: 1.25rem;
+    }
+}
+
+.footer-blurry .item.social > a 
+{
+    font-size: 1.25rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0.25rem 0;
+    margin: 0 0.5rem;
+    color: #fff;
+    opacity: 1;
+}
+
+.footer-blurry .item.social > a:hover 
+{
+    opacity: 0.9;
+}
+
+.footer-blurry .copyright 
+{
+    text-align: center;
+    padding-top: 1.5rem;
+    opacity: 1;
+    font-size: 0.8125rem;
+    margin-bottom: 0;
+}

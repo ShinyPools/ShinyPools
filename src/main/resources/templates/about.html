@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<!-- Head -->
+	<div th:replace="~{fragments/head :: head}"></div>
+	<body>
+		<!-- Header -->
+		<header class="fixed-top">
+			<!-- Nav -->
+			<div th:replace="~{fragments/nav :: nav}"></div>
+		</header>
+		<!-- Main -->
+		<main class="blurry container">
+			<div class="outerpanel py-4">
+				<div class="innerpanel">
+					<div class="pt-4"></div>
+					<h1 class="rounded-top mx-4">About</h1>
+					<ul class="list-unstyled px-4">
+						<li class="content"><a th:href="@{/}">Company</a></li>
+						<li class="content"><a th:href="@{/team}">Team</a></li>
+					</ul>
+					<a href="/image/inGround1.png" target="_blank">
+						<img class="rounded-bottom px-4" src="/image/inGround1.png">
+					</a>
+					<div class="pt-4"></div>
+				</div>
+			</div>
+		</main>
+		<!-- Footer -->
+		<div th:replace="~{fragments/footer :: footer}"></div>
+		<!-- Script Imports -->
+		<div th:replace="~{fragments/script_imports :: script_imports}"></div>
+	</body>
+</html>
