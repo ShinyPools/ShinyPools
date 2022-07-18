@@ -1,6 +1,6 @@
 body
 {
-	background: url("/image/poolBackground.jpg") no-repeat center center fixed;
+	background: url("../image/poolBackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,7 +34,7 @@ img
 
 .logo
 {
-	background: url("/image/crystalBlueWater.jpg") no-repeat center center;
+	background: url("../image/crystalBlueWater.jpg") no-repeat center center;
 	font-family: 'Stardos Stencil', cursive;
 	font-size: 6.25rem;
 	-webkit-text-fill-color: #FFFFFF;
